@@ -1,7 +1,10 @@
 langchain
+langchain-community
+langchain-gemini
+langchain-groq
+langchain-openai
+langchain-tavily
 langgraph
 python-dotenv
-langchain-groq
-langchain-gemini
-langchain-openai
 streamlit
+wikipedia
