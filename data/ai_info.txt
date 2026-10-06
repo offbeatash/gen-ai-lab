@@ -1,0 +1,149 @@
+### 1. Artificial Intelligence
+Artificial Intelligence (AI) is a branch of computer science focused on creating machines and software that can perform tasks requiring human-like intelligence. These tasks include reasoning, learning, understanding language, recognizing images, and making decisions.
+
+### 2. Machine Learning
+Machine Learning (ML) is a major part of AI where computers learn patterns from data instead of being explicitly programmed for every situation. ML is commonly used for prediction, classification, recommendation, and automation.
+
+### 3. Deep Learning
+Deep Learning is a subset of machine learning that uses neural networks with multiple layers. It is particularly effective for complex tasks involving images, speech, natural language, and large datasets.
+
+### 4. Neural Networks
+Neural networks are computational models inspired by the human brain. They contain interconnected nodes called neurons that process information and learn patterns from training data.
+
+### 5. Natural Language Processing
+Natural Language Processing (NLP) allows computers to understand, process, and generate human language. NLP is used in chatbots, translation systems, search engines, text classification, and virtual assistants.
+
+### 6. Generative AI
+Generative AI refers to systems capable of creating new content based on learned patterns. It can generate text, images, audio, video, software code, and other types of content.
+
+### 7. Large Language Models
+Large Language Models (LLMs) are AI models trained on massive collections of text. They can perform tasks such as answering questions, summarizing documents, generating code, translating languages, and writing content.
+
+### 8. Transformers
+Transformers are a neural-network architecture that has become fundamental to modern language models. They use attention mechanisms to understand relationships between different parts of an input.
+
+### 9. Attention Mechanism
+Attention allows an AI model to focus on the most relevant parts of the input while processing information. This helps language models understand context and relationships between words and sentences.
+
+### 10. Prompt Engineering
+Prompt engineering is the process of designing effective instructions for AI models. A clear prompt can provide the model with context, requirements, examples, and the expected output format.
+
+### 11. AI Agents
+AI agents are systems that can perform multiple steps to accomplish a goal. An agent may reason about a task, use external tools, retrieve information, make decisions, and execute actions.
+
+### 12. Agentic AI
+Agentic AI refers to AI systems that can operate with a certain degree of autonomy. Instead of simply answering a question, an agentic system can plan tasks and perform multiple operations to reach a desired outcome.
+
+### 13. Retrieval-Augmented Generation
+Retrieval-Augmented Generation (RAG) combines information retrieval with language generation. Before producing an answer, the system retrieves relevant information from external documents or databases and provides that information to the LLM.
+
+### 14. Enhanced RAG
+Enhanced RAG, often called ERAG, improves traditional RAG pipelines by adding techniques such as better retrieval, filtering, reranking, query transformation, and context optimization. This can help produce more relevant and reliable responses.
+
+### 15. Vector Embeddings
+Embeddings convert information such as text into numerical vectors. Similar pieces of information tend to have similar vector representations, making embeddings useful for semantic search.
+
+### 16. Vector Databases
+Vector databases are designed to store and search high-dimensional vectors efficiently. They are commonly used in RAG systems to find documents that are semantically similar to a user's query.
+
+### 17. FAISS
+FAISS is a library designed for efficient similarity search and clustering of dense vectors. It is widely used in AI applications for finding relevant documents based on embeddings.
+
+### 18. Document Chunking
+Document chunking divides large documents into smaller sections before storing them in a vector database. Good chunking helps the retrieval system find focused and relevant pieces of information.
+
+### 19. Semantic Search
+Semantic search focuses on the meaning of a query rather than simply matching exact keywords. Embeddings allow a search system to identify documents that are conceptually related to the user's question.
+
+### 20. Similarity Search
+Similarity search compares vectors to determine which pieces of information are most closely related. Measures such as cosine similarity and Euclidean distance can be used for this purpose.
+
+### 21. LangChain
+LangChain is a framework used to develop applications powered by language models. It provides components for prompts, models, document processing, retrieval, tools, and agent-based workflows.
+
+### 22. LangGraph
+LangGraph is designed for building stateful and multi-step AI workflows. It represents processes as graphs where nodes perform operations and edges determine how information flows between those operations.
+
+### 23. LangGraph State
+State allows a LangGraph application to maintain information as it moves through different steps. This is useful for agents that need to remember intermediate results, user information, retrieved documents, or previous actions.
+
+### 24. LangGraph Nodes
+Nodes represent individual operations within a LangGraph workflow. A node might call an LLM, retrieve documents, execute a tool, validate an answer, or perform another application-specific task.
+
+### 25. LangGraph Edges
+Edges define how execution moves between nodes. They can represent normal transitions or conditional decisions where the next step depends on the result of the previous operation.
+
+### 26. AI Memory
+AI memory allows an application to retain useful information across multiple interactions or workflow steps. Memory can help an agent maintain context and provide more personalized responses.
+
+### 27. Tool Calling
+Tool calling allows an AI model to request external functions or services. For example, an AI agent may call a calculator, database, search service, API, or custom Python function.
+
+### 28. Function Calling
+Function calling allows an LLM to generate structured requests for predefined functions. The application executes the requested function and can then provide the result back to the model.
+
+### 29. AI Hallucination
+AI hallucination occurs when a model produces information that appears plausible but is incorrect or unsupported. RAG, verification, better prompts, and evaluation techniques can help reduce hallucinations.
+
+### 30. Grounded AI
+Grounded AI systems generate responses based on reliable sources or provided context. RAG is one approach for grounding an LLM by supplying relevant external information during generation.
+
+### 31. AI Evaluation
+AI evaluation measures how well an AI system performs its intended tasks. Common evaluation criteria include accuracy, relevance, factuality, consistency, latency, and user satisfaction.
+
+### 32. Reranking
+Reranking improves retrieval by taking initially retrieved documents and ordering them according to their relevance to the query. This can help an LLM receive better context.
+
+### 33. Query Transformation
+Query transformation modifies or expands a user's original question to improve information retrieval. It can be useful when the original query is vague, short, or difficult for a search system to interpret.
+
+### 34. Document Retrieval
+Document retrieval is the process of finding relevant information from a collection of documents. In RAG systems, retrieved documents are typically passed to an LLM as context.
+
+### 35. AI Chatbots
+AI chatbots use language models and other AI technologies to communicate with users using natural language. They can be used for customer support, education, information retrieval, and productivity.
+
+### 36. Conversational AI
+Conversational AI focuses on building systems capable of interacting with people through natural language. Modern conversational systems can maintain context and perform multiple types of tasks.
+
+### 37. Multimodal AI
+Multimodal AI can process multiple types of information, such as text, images, audio, and video. This allows AI systems to understand and combine different forms of input.
+
+### 38. Computer Vision
+Computer vision enables computers to interpret visual information. Applications include image classification, object detection, facial recognition, medical imaging, autonomous vehicles, and quality inspection.
+
+### 39. Speech Recognition
+Speech recognition converts spoken language into text or structured commands. It is commonly used in voice assistants, transcription systems, accessibility tools, and customer-service applications.
+
+### 40. AI APIs
+AI APIs allow developers to integrate AI capabilities into their own applications. Developers can use APIs to access language models, embeddings, image generation, speech processing, and other AI services.
+
+### 41. AI Automation
+AI automation combines artificial intelligence with software workflows to reduce repetitive manual work. Examples include document processing, email classification, report generation, data extraction, and customer support.
+
+### 42. AI in Healthcare
+AI can assist healthcare applications with medical image analysis, clinical documentation, research, drug discovery, and patient-support systems. Human professionals and appropriate validation remain important for high-stakes decisions.
+
+### 43. AI in Education
+AI can support education through personalized learning, automated feedback, tutoring systems, content generation, and research assistance. It can help students understand difficult concepts through interactive explanations.
+
+### 44. AI in Business
+Businesses use AI for customer support, forecasting, recommendation systems, fraud detection, document analysis, marketing, and workflow automation. AI can help organizations process large amounts of information efficiently.
+
+### 45. AI in Cybersecurity
+AI can help cybersecurity teams identify unusual patterns, detect potential threats, classify security events, and analyze large volumes of logs. It can complement traditional security tools and human expertise.
+
+### 46. Responsible AI
+Responsible AI focuses on developing and using AI systems safely and ethically. Important considerations include fairness, privacy, transparency, security, accountability, and minimizing harmful outcomes.
+
+### 47. AI Data Privacy
+AI applications often process large amounts of information, making data privacy important. Developers should carefully control sensitive information, access permissions, storage, and how data is transmitted to external services.
+
+### 48. AI Model Fine-Tuning
+Fine-tuning adapts a pretrained model using additional task-specific training data. It can make a model better suited to a particular domain, style, or specialized task.
+
+### 49. AI Pipeline
+An AI pipeline is a sequence of steps used to process data and produce results. A RAG pipeline, for example, may include document loading, chunking, embedding, indexing, retrieval, reranking, and answer generation.
+
+### 50. Future of AI
+AI is moving toward more capable, multimodal, tool-using, and autonomous systems. Technologies such as LLMs, RAG, AI agents, LangGraph, vector databases, and enhanced retrieval techniques are contributing to the development of increasingly intelligent applications.
