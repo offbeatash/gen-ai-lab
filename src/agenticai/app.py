@@ -12,9 +12,8 @@ from langchain_core.messages import AIMessage, HumanMessage, ToolMessage
 
 from agent import MessagesState, agent
 
-# ---------------------------------------------------------------------------
+
 # Page config
-# ---------------------------------------------------------------------------
 
 st.set_page_config(
     page_title="LangGraph RAG Demo",
@@ -23,11 +22,10 @@ st.set_page_config(
 )
 
 st.title("🤖 LangGraph RAG Demo")
-st.caption("Calculator agent + knowledge base search — powered by LangGraph + Claude")
+st.caption("Calculator agent + knowledge base search + web search — powered by LangGraph")
 
-# ---------------------------------------------------------------------------
+
 # Session state
-# ---------------------------------------------------------------------------
 
 if "chat_history" not in st.session_state:
     st.session_state.chat_history = []  # list of (role, content)
@@ -35,9 +33,8 @@ if "chat_history" not in st.session_state:
 if "tool_traces" not in st.session_state:
     st.session_state.tool_traces = []  # list of trace dicts per turn
 
-# ---------------------------------------------------------------------------
+
 # Sidebar — tool trace
-# ---------------------------------------------------------------------------
 
 with st.sidebar:
     st.header("🔧 Tool Trace")
@@ -60,17 +57,15 @@ with st.sidebar:
                         st.code(call["result"], language="text")
                         st.divider()
 
-# ---------------------------------------------------------------------------
+
 # Chat display
-# ---------------------------------------------------------------------------
 
 for role, content in st.session_state.chat_history:
     with st.chat_message(role):
         st.markdown(content)
 
-# ---------------------------------------------------------------------------
+
 # Input
-# ---------------------------------------------------------------------------
 
 prompt = st.chat_input("Ask me to calculate something or explain an AI concept...")
 
